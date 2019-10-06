@@ -1,0 +1,74 @@
+/*.lesson-list__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 15px;
+  
+    border-bottom: 2px solid #f2f2f2;
+  }
+  
+  .lesson-list__item:last-child {
+    border-bottom: none;
+  }
+  
+  .active.lesson-list__item::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 80%;
+    top: 10%;
+    left: 0;
+    border-radius: 0 3px 3px 0;
+  
+    background: #13be82;
+  
+    z-index: 900;
+  }
+  
+  .span-continer {
+    display: flex;
+    align-items: center;
+  }
+
+  .lesson-timing {
+    margin-right: 10px;
+    font-weight: 600;
+  }
+  
+  .lesson-type {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    text-transform: uppercase;
+  
+    color: #ffffff;
+  }
+  
+  .lesson-type.primary {
+    background-color: #007bff;
+  }
+  
+  .lesson-type.danger {
+    background-color: #dc3545;
+  }
+  
+  .lesson-type.warning {
+    background-color: #ffc107;
+  }
+  
+  .lesson-name {
+    font-size: 1.4rem;
+    margin: 4px 0;
+  }
+  
+  .teacher-name,
+  .lesson-room {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: #6c757d;
+  }*/

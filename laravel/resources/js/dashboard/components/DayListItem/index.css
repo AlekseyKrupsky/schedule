@@ -1,0 +1,10 @@
+.day-list__item {
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+
+    background: #ffffff;
+
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}

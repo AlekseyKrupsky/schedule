@@ -1,0 +1,38 @@
+.mobile-navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px 15px;
+    background: white;
+    border-bottom: 1px solid #f2f2f2;
+
+    z-index: 500;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+.group-info-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown-group-info__icon {
+    padding-left: 5px;
+}
+
+.entity-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entity-name {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}

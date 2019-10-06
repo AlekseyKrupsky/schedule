@@ -1,0 +1,14 @@
+.list-views__item {
+    margin: 15px;
+    padding: 15px  20px 10px 20px;
+    color: #252525;
+    border: 1px solid #dbdada;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(86, 87, 88, 0.18);
+}
+
+.list-views__item:hover {
+    color: #3273dc;
+    border: 1px solid #3273dc;
+    box-shadow: 1px 3px 8px 0 #3273dcbd;
+}

@@ -1,0 +1,45 @@
+.day-list__item-header {
+    display: flex;
+    justify-content: center;
+    padding: 12px 15px;
+  
+    color: #ffffff;
+    background: #13be82;
+    /*background: rgba(22, 211, 126, 1);
+    background: -moz-linear-gradient(
+      left,
+      rgba(22, 211, 126, 1) 0%,
+      rgba(25, 244, 186, 1) 100%
+    );
+    background: -webkit-gradient(
+      left top,
+      right top,
+      color-stop(0%, rgba(22, 211, 126, 1)),
+      color-stop(100%, rgba(25, 244, 186, 1))
+    );
+    background: -webkit-linear-gradient(
+      left,
+      rgba(22, 211, 126, 1) 0%,
+      rgba(25, 244, 186, 1) 100%
+    );
+    background: -o-linear-gradient(
+      left,
+      rgba(22, 211, 126, 1) 0%,
+      rgba(25, 244, 186, 1) 100%
+    );
+    background: -ms-linear-gradient(
+      left,
+      rgba(22, 211, 126, 1) 0%,
+      rgba(25, 244, 186, 1) 100%
+    );
+    background: linear-gradient(
+      to right,
+      rgba(22, 211, 126, 1) 0%,
+      rgba(25, 244, 186, 1) 100%
+    );*/
+  }
+  
+  .item-header__date {
+    font-weight: 400;
+  }
+  

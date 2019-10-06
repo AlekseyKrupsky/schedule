@@ -1,0 +1,37 @@
+version: "2.1"
+services:
+  schedule-mysql:
+    container_name: schedule-mysql
+    image: mysql:5.7
+    restart: on-failure
+    environment:
+      MYSQL_DATABASE: "schedule-db"
+      MYSQL_USER: "schedule-user"
+      MYSQL_PASSWORD: "schedule-user-pass"
+      MYSQL_ROOT_PASSWORD: "schedule-user-pass-root"
+    ports:
+      - "33306:3306"
+    healthcheck:
+      test: mysqladmin ping --password=schedule-user-pass-root -h schedule-mysql
+      timeout: 20s
+      retries: 10
+    networks:
+      - backend
+  
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    links:
+      - schedule-mysql
+    environment:
+      PMA_HOST: schedule-mysql
+      PMA_PORT: 3306
+      PMA_USER: schedule-user
+      PMA_PASSWORD: schedule-user-pass
+    ports:
+      - '9090:80'
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge

@@ -1,0 +1,21 @@
+.dropdown-schedule-info {
+    display: flex;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+}
+
+.modal-content {
+    overflow: visible !important;
+
+    .modal-close {
+        position: absolute;
+        top: -45px;
+        right: 0;
+    }
+}
+
+.dropdown-schedule-divider {
+    margin: 10px 0;
+    background-color: #dbdbdb;
+}
